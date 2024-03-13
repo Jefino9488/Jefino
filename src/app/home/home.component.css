@@ -17,6 +17,35 @@ body {
   justify-content: center;
   align-items: center;
 }
+h1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 100% 400%;
+  animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 0 200%;
+  }
+  75% {
+    background-position: 0 300%;
+  }
+  100% {
+    background-position: 0 400%;
+  }
+}
 
 h1 {
   font-family: "Montserrat Medium", monospace;
@@ -158,9 +187,9 @@ svg {
 }
 svg text {
   text-transform: uppercase;
-  animation: stroke 5s infinite alternate;
+  animation: stroke 5s 1 alternate;
   stroke-width: 1;
-  stroke: #8d6e63;
+  fill: #8d6e63;
   font-size: 100px;
 }
 @keyframes stroke {
@@ -168,7 +197,7 @@ svg text {
     fill: rgba(72,138,20,0); stroke: rgb(141, 110, 99);
     stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
   }
-  70%  {fill: rgba(72,138,20,0); stroke: rgb(51, 45, 45); }
+  70%  {fill: rgba(72,138,20,0); stroke: rgb(141, 110, 99); }
   80%  {fill: rgba(72,138,20,0); stroke: rgb(141, 110, 99); stroke-width: 3; }
   100% {
     fill: rgb(141, 110, 99); stroke: rgba(54,95,160,0);
