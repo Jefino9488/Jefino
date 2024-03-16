@@ -1,4 +1,3 @@
-
 .home {
   margin: 100px  40px 0;
   color: #ecf0f1;
@@ -180,11 +179,11 @@ body {
 }
 svg {
   font-family: 'Russo One', sans-serif;
-  position: relative; /* Change to fixed for a position relative to the viewport */
-  left: -100px; /* Align to the left side */
-  top: 0; /* Align to the top */
-  width: 100%; /* Occupy the full width of the viewport */
-  height: 100%; /* Occupy the full height of the viewport */
+  position: relative;
+  left: -100px;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 svg text {
   text-transform: uppercase;
