@@ -17,6 +17,7 @@ import {
   MatCardSubtitle,
   MatCardTitle
 } from "@angular/material/card";
+import { DevCardComponent } from './res/dev-card/dev-card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    DevCardComponent
   ],
   imports: [
     BrowserModule,

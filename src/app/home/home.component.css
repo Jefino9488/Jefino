@@ -23,7 +23,7 @@ h1::before {
   left: -20px;
   width: 4px;
   height: 100%;
-  background: linear-gradient(to bottom, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(to bottom, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ee7752);
   background-size: 100% 400%;
   animation: colorChange 10s infinite;
 }
@@ -49,6 +49,7 @@ h1::before {
 h1 {
   font-family: "Montserrat Medium", monospace;
   max-width: 40ch;
+  margin-left: 60px;
   text-align: center;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -146,17 +147,6 @@ span:nth-child(18) {
   }
 }
 
-.example-card {
-  max-width: 400px;
-  background-color: #8d6e63;
-  border-radius: 15px;
-}
-
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
-}
-
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -179,8 +169,8 @@ body {
 }
 svg {
   font-family: 'Russo One', sans-serif;
-  position: relative;
-  left: -100px;
+  position: static;
+  left: 10px;
   top: 0;
   width: 100%;
   height: 100%;

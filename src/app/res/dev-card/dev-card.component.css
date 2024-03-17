@@ -89,7 +89,7 @@ body .container {
   flex-wrap: wrap;
   padding: 1em;
 }
-body .container .card {
+body .card {
   position: relative;
   width: 300px;
   height: 400px;
@@ -105,7 +105,7 @@ body .container .card {
   border: solid 2px transparent;
   background-clip: padding-box;
 }
-body .container .card .content {
+body .card .content {
   position: relative;
   display: flex;
   justify-content: center;
@@ -114,7 +114,7 @@ body .container .card .content {
   opacity: 0.5;
   transition: 0.5s;
 }
-body .container .card .content .img {
+body  .card .content .img {
   position: relative;
   width: 150px;
   height: 150px;
@@ -122,7 +122,7 @@ body .container .card .content .img {
   overflow: hidden;
   border: 10px solid rgba(0, 0, 0, 0.25);
 }
-body .container .card .content .img img {
+body .card .content .img img {
   position: absolute;
   top: 0;
   left: 0;
@@ -130,7 +130,7 @@ body .container .card .content .img img {
   height: 100%;
   object-fit: cover;
 }
-body .container .card .content .cardContent h3 {
+body  .card .content .cardContent h3 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -140,12 +140,12 @@ body .container .card .content .cardContent h3 {
   margin: 20px 0 10px;
   line-height: 1.1em;
 }
-body .container .card .content .cardContent h3 span {
+body  .card .content .cardContent h3 span {
   font-size: 12px;
   font-weight: 300;
   text-transform: initial;
 }
-body .container .card .sci {
+body  .card .sci {
   position: absolute;
   bottom: 50px;
   display: flex;
@@ -153,21 +153,21 @@ body .container .card .sci {
   align-items: center;
   flex-direction: row;
 }
-body .container .card .sci li {
+body  .card .sci li {
   margin: 0 10px;
   transform: translateY(40px);
   opacity: 0;
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
 }
-body .container .card .sci li a {
+body  .card .sci li a {
   font-size: 24px;
 }
-body .container .card:hover .content {
+body  .card:hover .content {
   opacity: 1;
   transform: translateY(-20px);
 }
-body .container .card:hover .sci li {
+body  .card:hover .sci li {
   transform: translateY(0px);
   opacity: 1;
 }

@@ -1,13 +1,36 @@
-<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jefino</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <style>
+    .home {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .home h1 {
+      font-family: 'Russo One', sans-serif;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .app-dev-card {
+      animation: fadeIn 3s ease-in-out forwards;
+    }
+  </style>
+</head>
+<body>
 <div class="home">
-  <svg viewBox="0 0 1320 300">
-    <text x="10%" y="80%"  text-anchor="inherit">
-      WELCOME
-    </text>
-  </svg>
   <h1>
-    <span>There</span>
-    <span>are</span>
+    <svg viewBox="0 0  ">
+      <text x="10%" y="80%" text-anchor="inherit">WELCOME</text>
+    </svg>
+    <span>I am</span>
+    <span style="color: #b9b9b9">Jᴇғɪɴᴏ</span>
     <span>no</span>
     <span>limits</span>
     <span>to</span>
@@ -25,4 +48,7 @@
     <span>own</span>
     <span>thinking.</span>
   </h1>
+  <app-dev-card class="app-dev-card"/>
 </div>
+</body>
+</html>
