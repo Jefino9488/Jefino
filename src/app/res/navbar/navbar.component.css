@@ -1,9 +1,9 @@
 .navbar {
   margin: 10px;
-  background-color: rgba(66, 66, 66, 0.63);
+  background-color: rgba(105, 76, 76, 0.5);
   color: white;
   padding: 15px 0;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px rgba(176, 138, 138, 0.1);
   border-radius: 15px;
   position: fixed;
   top: 0;

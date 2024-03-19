@@ -26,6 +26,4 @@ body { margin: 0;}
 }
 
 /* Add some padding to the body to prevent content from being obscured by the scrollbar */
-body {
-  padding-right: 8px;
-}
+
