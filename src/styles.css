@@ -2,27 +2,29 @@
 html {
 }
 
-html, body { height: 100%; }
-body { margin: 0;}
+html, body { height : 100%; }
+
+body { margin : 0;}
+
 /* Customize the scrollbar */
 ::-webkit-scrollbar {
-  width: 5px; /* Set the width of the scrollbar */
+    width : 5px; /* Set the width of the scrollbar */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #424242; /* Set the color of the scrollbar handle */
-  border-radius: 5px; /* Add rounded corners to the scrollbar handle */
+    background-color : #424242; /* Set the color of the scrollbar handle */
+    border-radius    : 5px; /* Add rounded corners to the scrollbar handle */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #263238; /* Set the color of the scrollbar track */
+    background-color : #263238; /* Set the color of the scrollbar track */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #263238; /* Set the color of the scrollbar handle on hover */
+    background-color : #263238; /* Set the color of the scrollbar handle on hover */
 }
 
 /* Add some padding to the body to prevent content from being obscured by the scrollbar */

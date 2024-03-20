@@ -1,165 +1,166 @@
 @keyframes colorful {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
+    0% {
+        filter : hue-rotate(0deg);
+    }
+    100% {
+        filter : hue-rotate(360deg);
+    }
 }
 
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  outline: none;
-  appearance: none;
-  border-style: none;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    appearance              : none;
+    border-style            : none;
+    box-sizing              : border-box;
+    color                   : #ffffff;
+    -webkit-font-smoothing  : antialiased;
+    list-style              : none;
+    margin                  : 0;
+    -moz-osx-font-smoothing : grayscale;
+    outline                 : none;
+    padding                 : 0;
+    text-decoration         : none;
 }
 
 h1, h2, h3, span, p {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family : "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
-  background-image: url('https://images.unsplash.com/photo-1473800447596-01729482b8eb?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-size: cover; /* To make the background image cover the entire background */
-  background-position: center; /* To center the background image */
+    background-image    : url('https://images.unsplash.com/photo-1473800447596-01729482b8eb?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position : center;
+    background-size     : cover;
+    height              : 100%;
+    width               : 100%;
 }
 
 body {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 2em;
+    align-items     : center;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    overflow        : hidden;
+    padding         : 2em;
+    position        : relative;
 }
 
 body::-webkit-scrollbar {
-  background: #020202;
-  width: 10px;
+    background : #020202;
+    width      : 10px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #020202;
+    background : #020202;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ffffff;
-  border-radius: 1px;
+    background    : #ffffff;
+    border-radius : 1px;
 }
 
 .container {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 1em;
+    align-items     : center;
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       : wrap;
+    justify-content : center;
+    padding         : 1em;
+    position        : relative;
+    z-index         : 1;
 }
 
 .container .card {
-  position: relative;
-  width: 300px;
-  height: 400px;
-  margin: 1em;
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  backdrop-filter: blur(10px); /* Adjust blur as needed */
-  border: solid 2px transparent;
-  background-clip: padding-box;
+    align-items     : center;
+    backdrop-filter : blur(10px); /* Adjust blur as needed */
+    background      : rgba(255, 255, 255, 0.05);
+    background-clip : padding-box;
+    border          : solid 2px transparent;
+    border-radius   : 15px;
+    box-shadow      : 0 15px 35px rgba(0, 0, 0, 0.2);
+    display         : flex;
+    flex-direction  : column;
+    height          : 400px;
+    justify-content : center;
+    margin          : 1em;
+    position        : relative;
+    width           : 300px;
 }
 
 .container .card .content {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0.5;
-  transition: 0.5s;
+    align-items     : center;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    opacity         : 0.5;
+    position        : relative;
+    transition      : 0.5s;
 }
 
 .container .card .content .img {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 10px solid rgba(0, 0, 0, 0.25);
+    border        : 10px solid rgba(0, 0, 0, 0.25);
+    border-radius : 50%;
+    height        : 150px;
+    overflow      : hidden;
+    position      : relative;
+    width         : 150px;
 }
 
 .container .card .content .img img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    height     : 100%;
+    left       : 0;
+    object-fit : cover;
+    position   : absolute;
+    top        : 0;
+    width      : 100%;
 }
 
 .container .card .content .cardContent h3 {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
-  font-size: 18px;
-  text-align: center;
-  margin: 20px 0 10px;
-  line-height: 1.1em;
+    color          : #fff;
+    font-size      : 18px;
+    font-weight    : 500;
+    letter-spacing : 2px;
+    line-height    : 1.1em;
+    margin         : 20px 0 10px;
+    text-align     : center;
+    text-transform : uppercase;
 }
 
 .container .card .content .cardContent h3 span {
-  font-size: 12px;
-  font-weight: 300;
-  text-transform: initial;
+    font-size      : 12px;
+    font-weight    : 300;
+    text-transform : initial;
 }
 
 .container .card .sci {
-  position: absolute;
-  bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+    align-items     : center;
+    bottom          : 50px;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    position        : absolute;
 }
 
 .container .card .sci li {
-  margin: 0 10px;
-  transform: translateY(40px);
-  opacity: 0;
-  transition: 0.5s;
-  transition-delay: calc(0.1s * var(--i));
+    align-items      : center;
+    margin           : 0 10px;
+    opacity          : 0;
+    transform        : translateY(40px);
+    transition       : 0.5s;
+    transition-delay : calc(0.1s * var(--i));
 }
 
 .container .card .sci li a {
-  font-size: 24px;
+    font-size : 24px;
 }
 
 .container .card:hover .content {
-  opacity: 1;
-  transform: translateY(-20px);
+    opacity   : 1;
+    transform : translateY(-20px);
 }
 
 .container .card:hover .sci li {
-  transform: translateY(0px);
-  opacity: 1;
+    opacity   : 1;
+    transform : translateY(0px);
 }
