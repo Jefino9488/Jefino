@@ -79,7 +79,7 @@ body {
 span {
     display      : inline-block;
     filter       : blur(4px);
-    margin-right : 5px;
+    margin-right : 10px;
     opacity      : 0;
 }
 
