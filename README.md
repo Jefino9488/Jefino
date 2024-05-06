@@ -1,27 +1,23 @@
-# Jefino
+# Hi there, I'm Jefino! 👋
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+- 🌐 Find me on [Telegram](https://t.me/Jefino9488)
+- 📧 Email me at: [jefinojacob9488@gmail.com](mailto:jefinojacob9488@gmail.com)
 
-## Development server
+## About Me
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+👀 I'm passionate about making life easier through automation. Currently, I'm a student at Chennai Institute of
+Technology, pursuing B.Tech in Artificial Intelligence & Data Science.
 
-## Code scaffolding
+## Learning Journey
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🌱 I'm on a journey of continuous learning, focusing on Artificial Intelligence and Data Science to stay at the forefront
+of technology.
 
-## Build
+## Let's Connect
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🧑🏻‍🎓 Feel free to reach out to me on [Telegram](https://t.me/Jefino9488) or drop me an email
+at [jefinojacob9488@gmail.com](mailto:jefinojacob9488@gmail.com). I'm always open to connecting with like-minded
+individuals!
 
-## Running unit tests
+### <a href="https://www.linkedin.com/in/jefino-jacob-69886423b/">linkedin</a> | <a href="https://www.github.com/Jefino9488">github</a> | <a href="https://www.twitter.com/Jefino29014673">twitter</a> |  <a href="https://t.me/Jefino9488">Telegram</a>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
