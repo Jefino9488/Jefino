@@ -1,6 +1,6 @@
 .navbar {
     backdrop-filter  : blur(10px);
-    background-color : rgba(105, 76, 76, 0.5);
+    background-color : rgba(255, 255, 255, 0.5);
     border-radius    : 15px;
     box-shadow       : 0 1px 5px rgba(176, 138, 138, 0.1);
     color            : white;

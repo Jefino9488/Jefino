@@ -1,0 +1,16 @@
+.app-dev-card {
+    align-items     : center;
+    backdrop-filter : blur(40px);
+    background      : rgba(255, 255, 255, 0.05);
+    background-clip : padding-box;
+    border          : solid 2px transparent;
+    border-radius   : 15px;
+    box-shadow      : 0 15px 35px rgba(0, 0, 0, 0.2);
+    display         : flex;
+    flex-direction  : column;
+    height          : 400px;
+    justify-content : center;
+    margin          : 1em;
+    position        : relative;
+    width           : 300px;
+}

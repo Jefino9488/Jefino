@@ -16,18 +16,19 @@ body {
     flex-direction  : column;
     height          : 100%;
     justify-content : center;
+    margin          : 5%;
 }
 
 @keyframes removeBlur {
     from {
-        backdrop-filter : blur(5%); /* Start with blur */
+        backdrop-filter : blur(5%);
     }
     to {
-        backdrop-filter : blur(0px); /* Gradually remove blur */
+        backdrop-filter : blur(0px);
     }
 }
 
-h1::before {
+#head::before {
     animation       : colorChange 10s infinite;
     background      : linear-gradient(to bottom, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ee7752);
     background-size : 100% 400%;
@@ -57,14 +58,16 @@ h1::before {
     }
 }
 
-h1 {
-    animation   : scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-    color       : rgba(255, 255, 255, 0.7);
-    font-family : "Montserrat Medium", monospace;
-    margin-left : 5%;
-    max-width   : 60%;
-    text-align  : center;
-    transform   : scale(0.94);
+#head {
+    animation    : scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    color        : rgba(255, 255, 255, 0.7);
+    font-family  : "Montserrat Medium", monospace;
+    margin-left  : 5%;
+    margin-right : 5%;
+    max-width    : 100%;
+    position     : relative;
+    text-align   : center;
+    transform    : scale(0.94);
 }
 
 @keyframes scale {
@@ -182,8 +185,6 @@ svg {
     font-optical-sizing : auto;
     font-style          : normal;
     font-weight         : 700;
-    height              : 100%;
-    left                : 10px;
     position            : static;
     top                 : 0;
     width               : 100%;
