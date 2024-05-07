@@ -18,6 +18,7 @@ import {
     MatCardTitle
 } from "@angular/material/card";
 import {DevCardComponent} from './res/dev-card/dev-card.component';
+import { ProjectRowComponent } from './res/project-row/project-row.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import {DevCardComponent} from './res/dev-card/dev-card.component';
         ProjectsComponent,
         ContactComponent,
         NavbarComponent,
-        DevCardComponent
+        DevCardComponent,
+        ProjectRowComponent
     ],
     imports: [
         BrowserModule,

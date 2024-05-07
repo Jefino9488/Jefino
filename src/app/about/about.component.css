@@ -2,7 +2,6 @@
     align-items     : center;
     backdrop-filter : blur(40px);
     background      : rgba(255, 255, 255, 0.05);
-    background-clip : padding-box;
     border          : solid 2px transparent;
     border-radius   : 15px;
     box-shadow      : 0 15px 35px rgba(0, 0, 0, 0.2);
@@ -10,7 +9,49 @@
     flex-direction  : column;
     height          : 400px;
     justify-content : center;
-    margin          : 1em;
     position        : relative;
-    width           : 300px;
+    width           : 400px;
+}
+
+@media (max-width : 768px) {
+    .app-dev-card {
+        height : 325px; /* Allow height to adjust based on content */
+        width  : 90%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width : 950px) {
+    .app-dev-card {
+        height : 325px; /* Allow height to adjust based on content */
+        width  : 95%; /* Adjust width for smaller screens */
+    }
+}
+
+
+#container {
+    align-items : center;
+    color       : white;
+    display     : flex;
+    margin      : 10%;
+}
+
+#container, body, html {
+    align-content : center;
+    align-items   : center;
+    color         : white;
+    display       : flex;
+}
+
+#container {
+    margin : 10%;
+}
+
+html {
+    background-image    : url('https://images.unsplash.com/photo-1473800447596-01729482b8eb?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position : center;
+    background-size     : cover;
+    height              : 100%;
+    margin              : 0;
+    position            : absolute;
+    width               : 100%;
 }

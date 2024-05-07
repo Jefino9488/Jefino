@@ -57,28 +57,6 @@ body::-webkit-scrollbar-thumb {
     border-radius : 1px;
 }
 
-body::before {
-    background : linear-gradient(45deg, #ee7752,);
-    clip-path  : circle(30% at right 70%);
-    content    : "";
-    height     : 100%;
-    left       : 0;
-    position   : absolute;
-    top        : 0;
-
-    width      : 100%;
-}
-
-body::after {
-    clip-path : circle(20% at 10% 10%);
-    content   : "";
-    height    : 100%;
-    left      : 0;
-    position  : absolute;
-    top       : 0;
-    width     : 100%;
-}
-
 body .container {
     align-items     : center;
     display         : flex;
@@ -152,7 +130,7 @@ body .card .sci {
     position        : absolute;
 }
 
-body .card .sci li {
+.card .sci li {
     margin           : 0 10px;
     opacity          : 0;
     transform        : translateY(40px);

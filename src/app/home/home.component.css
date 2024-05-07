@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap');
 
+html {
+    background-image    : url('https://images.unsplash.com/photo-1473800447596-01729482b8eb?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position : center;
+    background-size     : cover;
+    height              : 100%;
+    margin              : 0;
+    position            : absolute;
+    width               : 100%;
+}
+
 .home {
     color  : #ecf0f1;
     margin : 0;
@@ -16,7 +26,8 @@ body {
     flex-direction  : column;
     height          : 100%;
     justify-content : center;
-    margin          : 5%;
+    margin-left     : 5%;
+    margin-right    : 5%;
 }
 
 @keyframes removeBlur {
@@ -211,22 +222,6 @@ svg text {
     }
 }
 
-.app-dev-card {
-    align-items     : center;
-    backdrop-filter : blur(40px); /* Add blur effect directly to .app-dev-card */
-    background      : rgba(255, 255, 255, 0.05);
-    background-clip : padding-box;
-    border          : solid 2px transparent;
-    border-radius   : 15px;
-    box-shadow      : 0 15px 35px rgba(0, 0, 0, 0.2);
-    display         : flex;
-    flex-direction  : column;
-    height          : 400px;
-    justify-content : center;
-    margin          : 1em;
-    position        : relative;
-    width           : 300px;
-}
 
 .home {
     color                 : #ecf0f1;
@@ -242,32 +237,4 @@ svg, h1 {
     width     : 100%; /* Ensure these elements don't exceed their container's width */
 }
 
-@media only screen and (max-width : 915px) {
-    h1 {
-        font-size : 18px;
-    }
 
-    .home {
-        grid-template-columns : repeat(2, 1fr);
-    }
-
-    svg text {
-        font-size : 200%;
-    }
-}
-
-@media only screen and (max-width : 480px) {
-    .home {
-        gap                   : 10px;
-        grid-template-columns : 1fr;
-    }
-
-    span, svg text {
-        font-size : 14px;
-    }
-
-    .app-dev-card {
-        height : 250px;
-        width  : 150px;
-    }
-}
