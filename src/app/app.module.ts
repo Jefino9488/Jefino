@@ -12,13 +12,17 @@ import {provideAnimationsAsync} from '@angular/platform-browser/animations/async
 import {
     MatCard,
     MatCardActions,
-    MatCardContent,
-    MatCardHeader,
+    MatCardContent, MatCardFooter,
+    MatCardHeader, MatCardImage,
     MatCardSubtitle,
     MatCardTitle
 } from "@angular/material/card";
 import {DevCardComponent} from './res/dev-card/dev-card.component';
-import { ProjectRowComponent } from './res/project-row/project-row.component';
+import {ProjectRowComponent} from './res/project-row/project-row.component';
+import {MatDivider} from "@angular/material/divider";
+import {MatProgressBar} from "@angular/material/progress-bar";
+import {MatButton} from "@angular/material/button";
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
     declarations: [
@@ -39,7 +43,13 @@ import { ProjectRowComponent } from './res/project-row/project-row.component';
         MatCard,
         MatCardHeader,
         MatCardContent,
-        MatCardActions
+        MatCardActions,
+        MatDivider,
+        MatCardFooter,
+        MatProgressBar,
+        MatButton,
+        MatCardImage,
+        MatIconModule
     ],
     providers: [
         provideAnimationsAsync()
