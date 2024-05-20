@@ -246,37 +246,54 @@ svg, h1 {
         opacity      : 0;
     }
 
+        ::-webkit-scrollbar-thumb:hover {
+            background-color : #2980b9;
+        }
+
+
     svg {
         font-family         : "Nunito", sans-serif;
         font-optical-sizing : auto;
         font-style          : normal;
+        font-weight         : 700;
         position            : static;
         top                 : 0;
         width               : 100%;
-        height: 60%;
     }
 
     svg text {
         animation      : stroke 5s 1 alternate;
         fill           : #ffffff;
-        font-size      : 170%;
+        font-size      : 150%;
         stroke-width   : 1;
         text-transform : uppercase;
+    }
+
+    @keyframes stroke {
+        0% {
+            fill              : rgba(72, 138, 20, 0); stroke : rgb(255, 255, 255);
+            stroke-dashoffset : 25%; stroke-dasharray : 0 50%; stroke-width : 2;
+        }
+        70% {fill : rgba(72, 138, 20, 0); stroke : rgb(255, 255, 255); }
+        80% {fill : rgba(72, 138, 20, 0); stroke : rgb(255, 255, 255); stroke-width : 3; }
+        100% {
+            fill              : rgb(255, 255, 255); stroke : rgba(54, 95, 160, 0);
+            stroke-dashoffset : -25%; stroke-dasharray : 50% 0; stroke-width : 0;
+        }
     }
 
 
     .home {
         color                 : #ecf0f1;
         display               : grid; /* This will now work alongside Flexbox for individual items */
-        gap                   : 10px; /* Add some space between grid items */
+        gap                   : 20px; /* Add some space between grid items */
         grid-template-columns : 1fr; /* Start with a single column layout for mobile */
-        margin                : 10px;
+        margin                : 20px;
     }
 
     /* Adjustments for the SVG and h1 to ensure they don't overflow on small screens */
     svg, h1 {
         max-width : 100%;
-        width     : 100%;
-        height: 60%;
+        width     : 100%; /* Ensure these elements don't exceed their container's width */
     }
 }
