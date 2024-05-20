@@ -6,5 +6,8 @@ import {Component} from '@angular/core';
     styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-
+    menuWidth: string = '0';
+    toggleMenu() {
+        this.menuWidth = this.menuWidth === '0' ? '100%' : '0';
+    }
 }

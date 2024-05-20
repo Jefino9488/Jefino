@@ -23,6 +23,8 @@ import {MatDivider} from "@angular/material/divider";
 import {MatProgressBar} from "@angular/material/progress-bar";
 import {MatButton} from "@angular/material/button";
 import {MatIconModule} from '@angular/material/icon';
+import { MoreComponent } from './more/more.component';
+import { PageComponent } from './page/page.component';
 
 @NgModule({
     declarations: [
@@ -33,7 +35,9 @@ import {MatIconModule} from '@angular/material/icon';
         ContactComponent,
         NavbarComponent,
         DevCardComponent,
-        ProjectRowComponent
+        ProjectRowComponent,
+        MoreComponent,
+        PageComponent
     ],
     imports: [
         BrowserModule,
