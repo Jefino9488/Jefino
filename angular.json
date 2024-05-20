@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Jefino": {
+    "Jefino9488": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/jefino",
+            "outputPath": "dist/jefino9488",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Jefino:build:production"
+              "buildTarget": "Jefino9488:build:production"
             },
             "development": {
-              "buildTarget": "Jefino:build:development"
+              "buildTarget": "Jefino9488:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Jefino:build"
+            "buildTarget": "Jefino9488:build"
           }
         },
         "test": {
