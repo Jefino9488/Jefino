@@ -1,4 +1,6 @@
 import {Component} from '@angular/core';
+import {slideInAnimation} from './res/slideInAnimation';
+import {RouterOutlet} from '@angular/router';
 
 @Component({
     selector: 'app-root',
@@ -7,4 +9,7 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
     title = 'Jefino';
+    prepareRoute(outlet: RouterOutlet) {
+        return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+    }
 }

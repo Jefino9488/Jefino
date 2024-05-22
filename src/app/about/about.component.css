@@ -398,11 +398,41 @@ html {
     }
 
     .icon {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
         background: gray;
         border-radius: 50%;
     }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .icon {
+        color: white;
+        font-size: 20px;
+        transition: color 0.3s ease;
+    }
+
+    .icon-2 {
+        color: white;
+        font-size: 17px;
+        transition: color 0.3s ease;
+    }
+
+    .icon:hover {
+        color: #cfcfec;
+    }
+
+    .icon i {
+        display: inline-block;
+        line-height: 30px;
+        width: 25px;
+        height: 25px;
+    }
+
 
     .sub-cards {
         display: grid;

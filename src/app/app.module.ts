@@ -9,6 +9,7 @@ import {ProjectsComponent} from './projects/projects.component';
 import {ContactComponent} from './contact/contact.component';
 import {NavbarComponent} from './res/navbar/navbar.component';
 import {provideAnimationsAsync} from '@angular/platform-browser/animations/async';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {
     MatCard,
     MatCardActions,
@@ -53,7 +54,8 @@ import { PageComponent } from './page/page.component';
         MatProgressBar,
         MatButton,
         MatCardImage,
-        MatIconModule
+        MatIconModule,
+        BrowserAnimationsModule
     ],
     providers: [
         provideAnimationsAsync()
