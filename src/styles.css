@@ -2,7 +2,9 @@
 html {
 }
 
-html, body { height : 100%; }
+html, body { height : 100%;
+    font-family         : 'Nunito', sans-serif;
+}
 
 body { margin : 0;}
 
